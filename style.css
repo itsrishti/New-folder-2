@@ -1,8 +1,9 @@
 .container{
-    background-color: rgb(246, 233, 213);
-    height: 800px;
-    width: 1500px;
+
+    height: 850px;
+    width: 1520px;
     display: flex;
+    background-size: cover;
     
     
 }
@@ -35,9 +36,9 @@
     flex-wrap: row wrap;
     text-align: center;
     padding-top:25px;
-    padding-bottom: 40px;
+    padding-bottom:40px;
     padding-left: 2%;
-    padding-right: 3%;
+    padding-right: +3%;
     position: absolute;
     top: 30px;
     margin-top: 10px;
@@ -123,7 +124,8 @@ display: flex;
 
 }
 input[ type ="checkbox"]{
-    flex: none;
+    /* flex: none; */
+    display:block
 }
 #three{
     border-radius: 12px 12px 12px 12px;
@@ -152,4 +154,7 @@ input[ type ="checkbox"]{
 border-style: solid;
 border-color: rgb(237, 108, 15);
 size: 4px;
+}
+body{
+    background-color:rgb(246, 233, 213) ;
 }
