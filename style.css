@@ -123,9 +123,12 @@ display: flex;
          margin-top: 2%;
 
 }
-input[ type ="checkbox"]{
-    /* flex: none; */
-    display:block
+.count[ type ="checkbox"]{
+    flex: none;
+    /* display:block; */
+    height:7%;
+    width: 4%;
+    display:flexbox;
 }
 #three{
     border-radius: 12px 12px 12px 12px;
