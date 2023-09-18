@@ -2,10 +2,33 @@
 
     height: 850px;
     width: 1520px;
-    display: flex;
+    display:  inline-flex;
     background-size: cover;
+    flex-direction: column;
+    flex-wrap: wrap;
     
     
+}
+.centered-hr{
+    height: 1px;
+    display: flex;
+    text-align: center;
+    margin-top: 234px;
+    align-self: center;
+    /* text-decoration: overline; */
+    justify-content: center;
+    /* content: ""; */
+    /* font-size: 3px; */
+    /* content: Or; */
+    /* border: none; */    /* width: 50%; */
+    /* max-width: 50px; */
+}
+.centered-hr::before,
+.centered-hr::after{
+    content: " ";
+    flex: 1;
+    border-top: 1px solid #000;
+    /* margin-bottom: 235px; */
 }
 .first{
     background-color:#f2f0e9;
@@ -16,7 +39,7 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 55px;
-    padding-left: 4%;
+    padding-left: 2%;
     padding-right: 3%;
     position: absolute;
     top: 30px;
@@ -25,7 +48,7 @@
     color: rgb(43, 59, 59);
 font-size: 15px;
     margin-top: 45px;
-    /* margin-bottom:35px; */
+    margin-bottom:30px;
 }
 .second{
    
@@ -65,13 +88,13 @@ color: rgb(3, 39, 39)
 }
 .third{
     background-color: ghostwhite;
-    width: 800px;
-    height: 345px;
+    width: 935px;
+    height: 355px;
     flex-direction: column;
     position: absolute;
     margin-top: 424px;
-    margin-right: 110px;
-    margin-left: 300px;
+    margin-right: 230px;
+    margin-left: 230px;
     margin-bottom: 100px;
 }
 #one{
