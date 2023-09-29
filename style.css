@@ -205,23 +205,38 @@ size: 4px;
 body{
     background-color:#dbdbd9;
 }
+.different{
+display: flex;
+position: relative;
+/* z-index: 6900; */
+margin-top: 248px;
+margin-left: 350px;
+/* align-content: end; */
+/* bottom: 67px; */
+/* text-align: center;
+bottom: 9px;
+position:relative; */
+}
+
 .upper{
     background-color:whitesmoke;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     /* border: 4px solid whitesmoke; */
     border-style: solid;
     border-radius: 8%;
     border-color: whitesmoke;
-    display:flexbox;
-    flex-direction: column;
-    position: relative;
+    margin: 6px;
+    /* margin-bottom: 5px; */
+    /* align-content:bottom; */
+    text-align: center;
+    bottom:0;
+    position:relative;
+    /* position: relative; */
+    /* text-wrap: down; */
+    
 }
 #new{
     background-color: red;
     border-color: red;
-}
-.star{
-    display: inline;
-    height: min-content;
 }
