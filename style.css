@@ -14,7 +14,7 @@
     display: flex;
     text-align: center;
     margin-top: 235px;
-    align-self: center;
+   
     /* text-decoration: overline; */
     /* justify-content: center; */
     /* content: ""; */
@@ -258,10 +258,36 @@ display: flex;
 position: relative;
 margin-left: 1060px;
 bottom: 260px;
+background-image: 2%;
 /* margin-bottom: 180px; */
     /* margin: 6px; */
 }
 .icon{
     color: crimson;
-    font-size: 18px;
+    /* font-size: 1%; */
+    /* background-size: 1%; */
+    width:1%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+.hr{
+    height: 1px;
+    /* width: 1px; */
+    display: flex;
+    
+/* position: relative; */
+}
+.speaker{
+    width:1%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* margin-left: 32px; */
+    margin-top: 45px;
+margin-right: 17px;
 }
